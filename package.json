@@ -1,27 +1,20 @@
 {
-  "name": "dropdown-component",
+  "name": "component-dropdown",
   "description": "Dropdown component",
   "version": "1.0.11",
-  "author": "Damian Suarez <rdsuarez@gmail.com>",
-  "twitter": "@retrofox",
   "keywords": [
     "dropdown",
     "component"
   ],
+  "styles": [
+    "dropdown.css"
+  ],
   "dependencies": {
-    "menu-component": "*",
-    "inherit-component": "*"
+    "component-dom": "git://github.com/npmcomponent/component-dom.git",
+    "timoxley-offset": "git://github.com/npmcomponent/timoxley-offset.git",
+    "component-isempty": "git://github.com/npmcomponent/component-isempty.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-menu": "git://github.com/npmcomponent/component-menu.git"
   },
-  "component": {
-    "styles": [
-      "dropdown.css"
-    ],
-    "scripts": {
-      "dropdown": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/dropdown.git"
-  }
+  "license": "MIT"
 }

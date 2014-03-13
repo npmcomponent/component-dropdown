@@ -2,11 +2,11 @@
  * Module dependencies.
  */
 
-var Menu = require('menu');
-var inherit = require('inherit');
-var isempty = require('isempty');
-var offset = require('offset');
-var dom = require('dom');
+var Menu = require('component-menu');
+var inherit = require('component-inherit');
+var isempty = require('component-isempty');
+var offset = require('timoxley-offset');
+var dom = require('component-dom');
 
 /**
  * Expose `Dropdown`.
